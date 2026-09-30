@@ -7,7 +7,7 @@
   html-renderer: new-hamber.html-renderer.with(
     sidebar-image: none,
     footer-content: [
-      ECE Paris — Département Électronique & Systèmes Embarqués • #link("cours-complet.pdf")[Télécharger le cours complet en PDF]
+      ECE Paris — Département Électronique & Systèmes Embarqués • #link("https://ece-elec.github.io/typst-web/cours-complet.pdf")[Télécharger le cours complet en PDF]
     ],
   ),
   tree: (
