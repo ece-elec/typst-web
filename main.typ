@@ -4,7 +4,12 @@
 #book(
   base-url: "https://ece-elec.github.io/typst-web",
   title: "Systèmes Embarqués & Traitement du Signal • ECE",
-  html-renderer: new-hamber.html-renderer,
+  html-renderer: new-hamber.html-renderer.with(
+    sidebar-image: none,
+    footer-content: [
+      ECE Paris — Département Électronique & Systèmes Embarqués • #link("cours-complet.pdf")[Télécharger le cours complet en PDF]
+    ],
+  ),
   tree: (
     // Introduction
     [= Présentation Générale],
@@ -19,7 +24,7 @@
 
     // Partie II : Travaux Pratiques / Labs
     divider(),
-    [= Partie II : Travaux Pratiques (Labs)],
+    [= Partie II : Travaux Pratiques],
     chapter("labs/lab1-oscilloscope", content: include "content/lab1-oscilloscope.typ"),
     chapter("labs/lab2-filtre-stm32", content: include "content/lab2-filtre-stm32.typ"),
 

@@ -2,9 +2,9 @@
 
 Retrouvez ici les références, outils logiciels et gabarits officiels recommandés pour la rédaction de vos livrables.
 
-= 📝 Rédaction des Comptes-Rendus de TP
+= Rédaction des Comptes-Rendus de TP
 
-Pour rédiger vos rapports de travaux pratiques et de projet à l'ECE, utilisez le package officiel disponible sur [Typst Universe](https://typst.app/universe/package/electrocentrale) :
+Pour rédiger vos rapports de travaux pratiques et de projet à l'ECE, utilisez le package officiel disponible sur #link("https://typst.app/universe/package/electrocentrale")[Typst Universe] :
 
 == Initialisation en 1 ligne (CLI Typst)
 
@@ -28,15 +28,15 @@ typst watch main.typ
 )
 ```
 
-= 🛠️ Outils Logiciels & Bibliothèques
+= Outils Logiciels & Bibliothèques
 
 - *STM32CubeIDE* : Environnement officiel STMicroelectronics pour le développement firmware et la configuration des périphériques.
-- *ARM CMSIS-DSP* : Bibliothèque de fonctions de traitement du signal optimisées pour ARM Cortex-M (`arm_fir_f32`, `arm_rfft_fast_f32`).
-- *Python (NumPy / SciPy / Matplotlib)* : Pour le prototypage rapide des filtres numériques et le calcul des coefficients (ex. `scipy.signal.firwin`).
-- *Typst* : Compilateur de documents moderne et ultra-rapide ([typst.app](https://typst.app)).
+- *ARM CMSIS-DSP* : Bibliothèque de traitement du signal optimisée pour ARM Cortex-M (`arm_fir_f32`, `arm_rfft_fast_f32`).
+- *Python (NumPy / SciPy / Matplotlib)* : Pour le calcul des coefficients de filtrage (`scipy.signal.firwin`).
+- *Typst* : Compilateur de documents moderne et ultra-rapide (#link("https://typst.app")[typst.app]).
 
-= 🔗 Liens Utiles
+= Liens Utiles
 
-- [Dépôt GitHub ece-elec/Electrocentrale](https://github.com/ece-elec/Electrocentrale) — Code source et exemples complets des gabarits ECE.
-- [Documentation Officielle Typst](https://typst.app/docs/) — Syntaxe, fonctions et référence standard du langage.
-- [Code source de ce site (ece-elec/typst-web)](https://github.com/ece-elec/typst-web) — Dépôt du présent cours en ligne.
+- #link("https://github.com/ece-elec/Electrocentrale")[Dépôt GitHub ece-elec/Electrocentrale] — Code source et gabarits officiels ECE.
+- #link("https://typst.app/docs/")[Documentation Officielle Typst] — Syntaxe et référence standard.
+- #link("https://github.com/ece-elec/typst-web")[Code source de ce site (ece-elec/typst-web)] — Dépôt de ce support de cours.
